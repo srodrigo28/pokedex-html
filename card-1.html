@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Card 01</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Pokemon Stats</h1>
+        <h3>Main Stats</h3>
+        <img width="250" src="./grafico.png" />
+        
+        <div class="card-row">
+            <div class="card-box-icon">
+                <div class="box-icon">
+                    <i class="bi bi-hammer"></i>
+                </div>
+                <span>Ataque</span>
+            </div>
+            <p>60%</p>
+        </div>
+        <div class="card-row">
+            <div class="card-box-icon">
+                <div class="box-icon">
+                    <i class="bi bi-shield-fill"></i>
+                </div>
+                <span>Defesa</span>
+            </div>
+            <p>30%</p>
+        </div>
+        <div class="card-row">
+            <div class="card-box-icon">
+            <div class="box-icon">
+                <i class="bi bi-magic"></i>
+            </div>
+                <span>Spt. Ataque</span>
+            </div>
+            <p>10%</p>
+        </div>
+    </div>
+
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            overflow: hidden;
+        }
+        .box-icon{
+            padding: 10px 13px;
+            border-radius: 7px;
+            margin-bottom:5px;
+            background-color: #242323;
+            border: 1px solid blueviolet;
+        }
+        .bi{
+            color: blueviolet;
+            font-size: 30px;
+        }
+        .card-box-icon{
+            gap: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .card{
+            width: 400px;
+            height: 630px;
+            border-radius: 20px;
+            margin: 35px auto; /* espaçamento entre o card ou elemtno*/
+            border: 2px solid blueviolet;
+            background-color: #1d1d1d;
+
+            /* alinhamento dos elementos*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            transition: .3s;
+        }
+        .card:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+        .card-row{
+            width: 70%;
+            color: white;
+
+            /* alinhamento dos elementos*/
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            justify-content: space-between;
+            border-bottom: 2px solid blueviolet;
+        }
+        .card h1{
+            color: white;
+        }
+        .card h3{
+            color: #6e6b6b;
+        }
+    </style>
+</body>
+</html>
