@@ -6,6 +6,7 @@
 ### Telas feitas
 
 <img src="./screens/lista-v1.png" alt="tela web" />
+<img src="./screens/card-pokemon 1.png" alt="tela web" />
 
 
 ### Referencias pokemon
